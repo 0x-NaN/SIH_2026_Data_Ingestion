@@ -29,7 +29,7 @@ Contains Windows authentication events. Key features include:
 
 > **Status:** Download token expired. Re-submit the form at [csr.lanl.gov/data/cyber1/](https://csr.lanl.gov/data/cyber1/) to get a fresh link.
 
-### 2. `redteam.txt.gz` (~4.8 KB) – *The Ground Truth* ✅ Downloaded
+### 2. `redteam.txt.gz` (~4.8 KB) – *The Ground Truth* ✅ Downloaded | Check GitHub Repo Releases
 The most valuable file in the dataset. It contains the exact timestamps and details of the actual red-team operations. 
 - **Use Case**: This is used to map "Normal" authentication sequences to specific MITRE tactics (e.g., flagging the first anomalous `user@host` pair as *Initial Access*, and subsequent hops as *Lateral Movement*).
 - **Location:** Stored locally in `data/lanl/redteam/`.
